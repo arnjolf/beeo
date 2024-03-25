@@ -1,0 +1,20 @@
+.history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.history__img {
+  width: 100%;
+}
+
+.history__text {
+  width: 100%;
+}
+
+.history__author {
+  width: 100%;
+  text-align: right;
+}

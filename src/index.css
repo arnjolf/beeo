@@ -1,0 +1,19 @@
+@import url(./vendor/fonts/fonts.css);
+
+body {
+  margin: 0;
+}
+
+#root {
+  font-family: "Roboto", Helvetica, sans-serif;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.55;
+}
+
+@import url(./components/Header/Header.css);
+@import url(./components/Main/Main.css);
+@import url(./components/Slogan/Slogan.css);
+@import url(./components/Company/Company.css);
+@import url(./components/History/History.css);
