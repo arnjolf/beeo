@@ -1,0 +1,14 @@
+.gallery {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  padding: 0 20px;
+  box-sizing: border-box;
+  grid-template-columns: repeat(auto-fit, 260px);
+  grid-auto-flow: row;
+  justify-content: space-around;
+  justify-items: center;
+  column-gap: 40px;
+  row-gap: 75px;
+}

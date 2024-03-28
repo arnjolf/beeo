@@ -1,7 +1,20 @@
-@import url(./vendor/fonts/fonts.css);
+html {
+  height: 100%;
+}
 
 body {
   margin: 0;
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex-grow: 1;
 }
 
 #root {
@@ -12,8 +25,12 @@ body {
   line-height: 1.55;
 }
 
+@import url(./vendor/fonts/fonts.css);
 @import url(./components/Header/Header.css);
 @import url(./components/Main/Main.css);
 @import url(./components/Slogan/Slogan.css);
 @import url(./components/Company/Company.css);
 @import url(./components/History/History.css);
+@import url(./components/Footer/Footer.css);
+@import url(./components/Gallery/Gallery.css);
+@import url(./components/ProductCard/ProductCard.css);
